@@ -28,6 +28,9 @@ jobs:
         channel: 'stable'
         cache: true
 
+    - name: Generate Platform Folders
+      run: flutter create .
+
     - name: Install Dependencies
       run: flutter pub get
 
